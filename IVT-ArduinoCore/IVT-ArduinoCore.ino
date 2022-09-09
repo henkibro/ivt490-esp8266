@@ -1,6 +1,7 @@
 /*
  *  IVT 490 serial to MQTT
  *  Michael Skorge
+ *  fork by HENKiBRO
  */
 
 #include <ESP8266WiFi.h>
