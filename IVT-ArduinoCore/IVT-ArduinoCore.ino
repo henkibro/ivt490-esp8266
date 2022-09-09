@@ -26,7 +26,7 @@ WiFiClient wclient;
 PubSubClient client(MQTTserver, 1883, wclient);
 
 
-SoftwareSerial swSer(14, 12, false, 128);
+SoftwareSerial swSer(14, 12, false, 255);
 
 float stringToFloat(String input){
   String stringTemp = input;
